@@ -1,0 +1,540 @@
+fileFormatVersion: 2
+guid: 110ef94660780e643a6a41a711e8922c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_0
+    21300002: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_1
+    21300004: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_2
+    21300006: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_3
+    21300008: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_4
+    21300010: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_5
+    21300012: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_6
+    21300014: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_7
+    21300016: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_8
+    21300018: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_9
+    21300020: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_10
+    21300022: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_11
+    21300024: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_12
+    21300026: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_13
+    21300028: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_14
+    21300030: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_15
+    21300032: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_16
+    21300034: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_17
+    21300036: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_18
+    21300038: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_19
+    21300040: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_20
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 462
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c82a480851ff94fbe8e0da45be4460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 462
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd60af5a1b493bb42a2c555bd9568e15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 462
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f565b020eb68931459e3d7fac4d75cc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_3
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 462
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb152fde9c2f21408e36a427ed9ea5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_4
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 462
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9424d4a3affa62b459a9bc91de83da67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_5
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 462
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941b03fa7e5b0bd498dc67e1ecd3c34f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 396
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21b77c0701816f4a92292723f4b33eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_7
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 396
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c1b5b5695ae1d44a4dc81806314a7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_8
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 396
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ec7e0f2da2199479850b95fbf0b92f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 396
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab14da8e9a869c4a9afc3c3682e6c81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 396
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd5248060c0507408bb07801535a305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_11
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 396
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210e2360c2fdb1049bff1d77836ef46d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 330
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0de9deffdcba5a4ead98f76802aa76d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 330
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80447f97274529149a9ba2ac001b4ecd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_14
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 330
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2cb946f8c74c241a6ba8bcfe38bf3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_15
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 330
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7852fd6e6192ba448931022a4d032d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_16
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 330
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a16fbf10e9a6a4e84fb6fd7f04491e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_17
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 330
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29571c96c640554eb1f911ae2e72329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_18
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 264
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f34cad9793011b4dae13022c8407f06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 264
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa54212b6e5cc8b489a223327a36c746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-polar-bear-rpg-maker-sprite-deviantart-5af54d1470d099.1421442515260254924621_20
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 264
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e7419f61be17349bf7e2d3bf680f42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c909b86da2c344d4988320d26a5147cb
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
