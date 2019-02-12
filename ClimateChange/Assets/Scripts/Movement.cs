@@ -15,10 +15,17 @@ public class Movement : MonoBehaviour
     
     private GameObject sun;
 
+    private GameObject ScoreText;
+
     private bool timeBool = false;
 
-    private bool moveBack = false; 
+    private bool moveBack = false;
 
+    private float moveDown = 1f;
+
+    private float moveUp = 30f;
+
+    private ScoreUI scoreUI;
 
 
     private void Awake()
@@ -26,6 +33,8 @@ public class Movement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         sun = GameObject.Find("Sun");
+
+        ScoreText = GameObject.Find("ScoreText");
 
         if (gameObject.tag == "Leftcloud")
         {
@@ -36,35 +45,28 @@ public class Movement : MonoBehaviour
             oldPos = transform.position;
         }
 
+        scoreUI = ScoreText.gameObject.GetComponent<ScoreUI>();
+
     }
 
     private void Update()
     {
-        /*if (gameObject.tag == "Leftcloud")
+        moveDown += 0.1f * Time.deltaTime;
+
+        if (gameObject.tag == "Leftcloud")
         {
-            transform.position = Vector3.MoveTowards(sun.transform.position, oldPos, 1 * Time.deltaTime);
+            Move(-10, 0);
         }
         else if (gameObject.tag == "Rightcloud")
         {
-           transform.position = Vector3.MoveTowards(sun.transform.position, oldPos, 1 * Time.deltaTime);
-        }*/
+            Move(10, 0);
+        }
         OnPress();
         if (gameObject.tag == "Bear")
         {
-            Move(0, -1);
+            Move(0, -moveDown);
         }
 
-        if(moveBack == true)
-        {
-            if (gameObject.tag == "Leftcloud")
-            {
-                transform.position = Vector3.MoveTowards(sun.transform.position, oldPos, 1 * Time.deltaTime);
-            }
-           else if (gameObject.tag == "Rightcloud")
-            {
-                transform.position = Vector3.MoveTowards(sun.transform.position, oldPos, 1 * Time.deltaTime);
-            }
-        }
 
         timer -= Time.deltaTime;
         if(timeBool == true)
@@ -72,11 +74,13 @@ public class Movement : MonoBehaviour
             timer = 0.5f;
             timeBool = false;
         }
+
+        PowerUp();
     }
 
     private void Move(float xAmount, float yAmount)
     {
-        rb.velocity += new Vector2(xAmount, yAmount) * Time.deltaTime;
+        rb.AddForce(new Vector2(xAmount, yAmount), ForceMode2D.Impulse);
     }
 
     private void OnPress()
@@ -89,14 +93,14 @@ public class Movement : MonoBehaviour
             if (gameObject.tag == "Bear")
             {
 
-                Move(0, 50);
+                Move(0, moveUp);
             }
 
             else if (gameObject.tag == "Leftcloud")
             {
                 if (timer > 0)
                 {
-                    transform.position = Vector3.MoveTowards(oldPos, sun.transform.position, Time.deltaTime);
+                    Move(150, 0);
 
                 }
             }
@@ -104,13 +108,22 @@ public class Movement : MonoBehaviour
             {
                 if (timer > 0)
                 {
-                    transform.position = Vector3.MoveTowards(oldPos, sun.transform.position, Time.deltaTime);
+                    Move(-150, 0);
                 }
             }
         }
         if (Input.GetMouseButtonUp(0))
         {
             moveBack = true;
+        }
+    }
+
+    private void PowerUp()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && scoreUI.IntScore >= 30)
+        {
+            moveUp += 10;
+            scoreUI.IntScore -= 30;
         }
     }
 }

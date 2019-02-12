@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Collision : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class Collision : MonoBehaviour
         if(collision.gameObject.tag == "Bear")
         {
             Destroy(collision.gameObject);
+            SceneManager.LoadScene("DeathScene");
         }
     }
 

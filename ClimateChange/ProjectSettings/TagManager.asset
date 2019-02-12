@@ -50,3 +50,6 @@ TagManager:
   - name: clouds
     uniqueID: 932723577
     locked: 0
+  - name: Bear
+    uniqueID: 941842855
+    locked: 0
